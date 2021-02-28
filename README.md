@@ -385,7 +385,7 @@ Called when the editor receives a keydown event.
 
 ``` js
 methods: {
-  onkeydown (event, view) {
+  onKeyDown (event, view) {
     console.log('event', event.key)
   }
 }
